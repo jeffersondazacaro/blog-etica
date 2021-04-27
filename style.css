@@ -1,0 +1,40 @@
+body{
+    background: rgb(251, 205, 144);
+}
+
+.borde{
+    box-shadow: border-box;
+    text-align: center;
+    border: solid 1px rgba(2, 2,2,0.1);
+    background: #fff;
+}
+.img{
+    width:500px;
+}
+
+.image-container{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.introduction p{
+    text-align: justify;
+}
+
+.img-etica{
+    width: 300px; 
+}
+
+.text-definition{
+    text-align:justify;
+}
+
+.img-ciudadania{
+    width: 250px;
+}
+
+.copy{
+    text-align:center;
+    font-weight: bold;
+}
