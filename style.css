@@ -1,5 +1,44 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
 body{
-    background: #e94345db;
+    background: #fff;
+}
+
+.wellcome{
+    background: rgba(240, 86, 66, 0.342);
+}
+
+.wellcome-title{
+    font-weight: 600;
+    color: #555;
+}
+
+.fbutton{
+    padding: 10px;
+    background:rgba(240, 86, 66, 0.438);
+    border: none #ff715d;
+    border-radius: 7%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.fbutton:hover{
+    padding: 10px;
+    background: #ff715d;
+    border: none;
+    border-radius: 7%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.contain-head{
+    margin-top: 15% !important;
 }
 
 .borde{
@@ -9,7 +48,11 @@ body{
     background: #fff;
 }
 .img{
-    width:500px;
+    max-width:300px;
+}
+
+.img-banner{
+    max-width: 600px;
 }
 
 .image-container{
@@ -22,8 +65,24 @@ body{
     text-align: justify;
 }
 
+.infography{
+    max-width: 30%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.infography:hover{
+    max-width: 40%;
+    transition: 0.3s;
+}
+
 .img-etica{
-    width: 300px; 
+    max-width: 35%; 
+}
+
+.img-etica:hover{
+    max-width: 55%;
+    transition: 0.3s;
 }
 
 .text-definition{
@@ -37,6 +96,7 @@ body{
 .copy{
     text-align:center;
     font-weight: bold;
+    color: #555;
 }
 
 

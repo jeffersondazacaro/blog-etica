@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;600&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -15,20 +19,19 @@
 </head>
 
 <body>
-    <div class="container-fluid-sm container-md borde">
+    <div class="container-fluid-sm">
         <section class="mb-5">
             <!-- NAVBAR -->
-            <nav class="navbar nav">
-                <div class="container fixed-top navbar-light bg-light navbar p-2">
-                    <a class="navbar-brand" href="#">Seminario de gestión II</a>
+            <nav class="navbar nav fixed-top navbar-light bg-light navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#"> Latintech </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li data-target="#sidenav-collapse-main" data- 
-                            toggle="collapse" class="nav-item" >
+                            <li data-target="#sidenav-collapse-main" data- toggle="collapse" class="nav-item">
                                 <a class="nav-link close" href="#about">Sobre Nosotros</a>
                             </li>
                             <li class="nav-item">
@@ -59,100 +62,115 @@
             <!-- / NAVBAR -->
         </section>
 
-        <div class="image-container mt-5 pt-5" id="about">
-            <img class="img"
-                src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/485/7070816485_473045c5-e4c1-4aa0-979f-2a32523d8efe.png?cb=1649036862"
-                alt="" />
-        </div>
-        <div class="tittle-2 my-4">
-            <h2>Sobre nosotros</h2>
-        </div>
-        <div class="introduction">
-            <p class="px-4 px-lg-5 mx-lg-5">
-                Somos una startup enfocada en el sector de TI, que es consciente que
-                el mercado en cuanto a Tecnologías de la información es cada vez mayor
-                y que la cantidad de personal capacitado no es suficiente para cubrir
-                las vacantes que hay hoy en día
-            </p>
-        </div>
-        <div class="row etica" id="base">
-            <div class="col-12 mt-md-5 mb-0">
-                <h3>Modelo canvas base</h3>
+        <!-- FIRST SECTION -->
+        <section class="wellcome">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-6 contain-head">
+                            <h1 class="ms-4 mb-3 wellcome-title">Bienvenidos a Latintech</h1>
+                            <a class="fbutton ms-4" href="">Sobre Nosotros</a>
+                        </div>
+                        <div class="col-6 ">
+                            <img src="./img/banner.svg" alt="banner" class="img-banner"/>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12">
-                <img class="img-etica"
+        </section>
+
+        <div class="row">
+            <div class="col-6 ps-5 mt-5 pt-5 mb-5">
+                    <h2>Sobre nosotros</h2>
+                    <p>
+                        Somos una startup enfocado en el sector de TI, que es consciente que el mercado en cuanto a Tecnologías de la información es cada vez mayor y que la cantidad de personal capacitado no es suficiente para cubrir las vacantes que hay hoy en día. Nuestro público son profesionales o personas interesadas en trabajar en el sector de TI y nos damos a conocer a través de redes sociales, marketing digital y voz a voz. En cuanto a nuestro público, es una relación muy personal, ya que al ser un servicio que otras empresas ofrecen con características similares, es muy importante la fidelización con el cliente. Finalmente, nuestros ingresos se generan a través de unas cuotas por suscripciones, las cuales pueden ser mensuales, trimestrales, semestrales y anuales.
+                    </p>
+            </div>
+            <div class="col-6 mt-5">
+                <div class="image-container" id="about">
+                    <img class="img" src="./img/logo.png" alt="" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="row etica wellcome" id="base">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
+                <h3>Modelo canvas original</h3>
+            </div>
+            <div class="col-12 d-flex justify-content-center text-center">
+                <img class="img-etica mb-3"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/960359648614047824/unknown.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row etica mt-3" id="infography">
-            <div class="col-12 mt-md-5 mb-0">
+        <div class="row mt-3" id="infography">
+            <div class="col-12 mt-md-5 mb-3 d-flex justify-content-center text-center">
                 <h3>Infografía (Patrón que menos se integra)</h3>
             </div>
-            <div class="col-12">
-                <img class="img-etica"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/960359648614047824/unknown.png"
+            <div class="col-12 d-flex justify-content-center text-center">
+                <img class="infography"
+                    src="https://cdn.discordapp.com/attachments/701559542848159747/960750885456203796/infografia_modelo_gratis.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row etica mt-3" id="desgragation">
-            <div class="col-12 mt-md-5 mb-0">
+        <div class="row mt-3 wellcome" id="desgragation">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
                 <h3>Patrón de desegregación</h3>
             </div>
-            <div class="col-12">
-                <img class="img-etica"
+            <div class="col-12 d-flex justify-content-center text-center">
+                <img class="img-etica mb-3"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/960362288089550858/unknown.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row etica mt-3" id="long-tail">
-            <div class="col-12 mt-md-5 mb-0">
+        <div class="row mt-3" id="long-tail">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
                 <h3>Patrón Long Tail</h3>
             </div>
-            <div class="col-12">
+            <div class="col-12 d-flex justify-content-center text-center">
                 <img class="img-etica"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/960363066271334400/unknown.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row etica mt-3 mb-5" id="multiple-platform">
-            <div class="col-12 mt-md-5 mb-0">
+        <div class="row mt-3 mb-5 wellcome" id="multiple-platform">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
                 <h3>Patrón de plataformas múltiples</h3>
             </div>
-            <div class="col-12">
+            <div class="col-12 d-flex justify-content-center text-center">
+                <img class="img-etica mb-3"
+                    src="https://cdn.discordapp.com/attachments/701559542848159747/960363247792443472/unknown.png"
+                    alt="" />
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-5" id="free">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
+                <h3>Modelo de negocio gratis</h3>
+            </div>
+            <div class="col-12 d-flex justify-content-center text-center">
                 <img class="img-etica"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/960363247792443472/unknown.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row etica mt-3 mb-5" id="free">
-            <div class="col-12 mt-md-5 mb-0">
-                <h3>Patrón gratis como modelo de negocio</h3>
+        <div class="row mt-3 mb-5 wellcome" id="open">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
+                <h3>Modelo de negocio abierto</h3>
             </div>
-            <div class="col-12">
-                <img class="img-etica"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/960363247792443472/unknown.png"
-                    alt="" />
-            </div>
-        </div>
-
-        <div class="row etica mt-3 mb-5" id="open">
-            <div class="col-12 mt-md-5 mb-0">
-                <h3>Patrón modelo de negocio abierto</h3>
-            </div>
-            <div class="col-12">
-                <img class="img-etica"
+            <div class="col-12 d-flex justify-content-center text-center">
+                <img class="img-etica mb-3"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/960363247792443472/unknown.png"
                     alt="" />
             </div>
         </div>
     </div>
-    <script src='./main.js'></script>
+    <script src="./main.js"></script>
 </body>
 
 <footer>
