@@ -1,3 +1,3 @@
 # blog_etica
 
-https://jeffersondazacaro.github.io/blog-etica-ciudadania/
+https://jeffersondazacaro.github.io/seminario-de-gestion-ii
