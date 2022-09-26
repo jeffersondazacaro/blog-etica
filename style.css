@@ -8,12 +8,16 @@ body{
 }
 
 .wellcome{
-    background: rgba(240, 86, 66, 0.342);
+    background-image: linear-gradient(to right top, #ff9966, #ff8b62, #ff7d60, #ff6e60, #ff5e62);
+}
+
+.wellcome-components{
+    background: #ff8b62;
 }
 
 .wellcome-title{
     font-weight: 600;
-    color: #555;
+    color: #fff;
 }
 
 .fbutton{
@@ -39,6 +43,7 @@ body{
 
 .contain-head{
     margin-top: 15% !important;
+    overflow: hidden;
 }
 
 .borde{
@@ -80,6 +85,10 @@ body{
     max-width: 35%; 
 }
 
+.img-comunity{
+    max-width: 60%; 
+}
+
 .img-etica:hover{
     max-width: 55%;
     transition: 0.3s;
@@ -105,3 +114,51 @@ body{
         width:300px;
     }
 }
+
+.wave{
+    background-image: linear-gradient(to bottom right, #ff9966, #ff8b62, #ff7d60, #ff6e60, #ff5e62);
+}
+
+/*-------------------- contacto ------------------*/
+
+.containContact{
+    text-align: center;
+  }
+  
+  .icons{
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
+  
+  .instagram:hover{
+    color:#ff8b62 ;
+    transition: 0.3s;
+  }
+  
+  .linkedin:hover{
+    color:#ff8b62 ;
+    transition: 0.3s;
+  }
+  
+  .github:hover{
+    color:#ff8b62 ;
+    transition: 0.3s;
+  }
+  
+  .mail:hover{
+    color:#ff8b62 ;
+    transition: 0.3s;
+  }
+  
+  .redes{
+    text-decoration: none;
+    color: #ff5e62;
+  }
+  
+  .icons a:hover{
+  color: #ff8b62;
+  }
+  
+  .contacto{
+    font-weight: 600;
+  }

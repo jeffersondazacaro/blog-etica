@@ -1,0 +1,24 @@
+{
+  "name": "blog-etica-ciudadania",
+  "version": "1.0.0",
+  "description": "https://jeffersondazacaro.github.io/seminario-de-gestion-ii",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersondazacaro/blog-etica-ciudadania.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersondazacaro/blog-etica-ciudadania/issues"
+  },
+  "homepage": "https://github.com/jeffersondazacaro/blog-etica-ciudadania#readme",
+  "dependencies": {
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^2.0.12"
+  }
+}

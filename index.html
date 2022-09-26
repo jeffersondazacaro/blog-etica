@@ -5,60 +5,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;600&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        rel="stylesheet" />
+    <link rel="icon" href="./img/logo.png">
+    <script src="https://kit.fontawesome.com/eb42ca2408.js" crossorigin="anonymous"></script>
     <title>Latintech</title>
 </head>
 
 <body>
     <div class="container-fluid-sm">
-        <section class="mb-5">
+        <section>
             <!-- NAVBAR -->
-            <nav class="navbar nav fixed-top navbar-light bg-light navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="#"> Latintech </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar bg-gradient navbar-expand-lg fixed-top" style="background: rgba(255, 255, 255, 0.943)">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li data-target="#sidenav-collapse-main" data- toggle="collapse" class="nav-item">
-                                <a class="nav-link close" href="#about">Sobre Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#base">Canvas Base</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#infography">Infografía</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#desgragation">Desagregación</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#long-tail">Long Tail</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#multiple-platform">Plataformas Multiples</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#free">Gratis como modelo de negocio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#open">Modelo de negocio abierto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link close" href="#questions">Preguntas significativas</a>
-                            </li>
-                        </ul>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                                <li data-target="#sidenav-collapse-main" data- toggle="collapse" class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#about">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#comunity">Comunidad</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#platform">Plataforma</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#foryou">Servicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#leader">Habilidades blandas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#prices"> Precios </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#canvas">Modelo canvas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#infography">Infografía</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link close fw-bold" href="#contact">Contáctanos</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -66,131 +73,286 @@
         </section>
 
         <!-- FIRST SECTION -->
-        <section class="wellcome">
+        <section class="wellcome pt-5">
             <div class="row">
                 <div class="col">
                     <div class="row">
                         <div class="col-6 contain-head">
-                            <h1 class="ms-4 mb-3 wellcome-title">Bienvenidos a Latintech</h1>
+                            <h1 class="ms-4 mb-3 wellcome-title">
+                                Bienvenidos a Latintech
+                            </h1>
+                            <div class="ms-4 mb-3">
+                                <span class="typed"></span>
+                            </div>
                             <a class="fbutton ms-4" href="">Sobre Nosotros</a>
                         </div>
-                        <div class="col-6 ">
-                            <img src="./img/banner.svg" alt="banner" class="img-banner"/>
+                        <div class="col-6">
+                            <img src="./img/banner.svg" alt="banner" class="img-banner" id="ilustration" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <div class="row">
-            <div class="col-6 ps-5 mt-5 pt-5 mb-5">
-                    <h2>Sobre nosotros</h2>
-                    <p>
-                        Somos una startup enfocado en el sector de TI, que es consciente que el mercado en cuanto a Tecnologías de la información es cada vez mayor y que la cantidad de personal capacitado no es suficiente para cubrir las vacantes que hay hoy en día. Nuestro público son profesionales o personas interesadas en trabajar en el sector de TI y nos damos a conocer a través de redes sociales, marketing digital y voz a voz. En cuanto a nuestro público, es una relación muy personal, ya que al ser un servicio que otras empresas ofrecen con características similares, es muy importante la fidelización con el cliente. Finalmente, nuestros ingresos se generan a través de unas cuotas por suscripciones, las cuales pueden ser mensuales, trimestrales, semestrales y anuales.
-                    </p>
+        <div class="wave">
+            <div style="height: 150px; overflow: hidden">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #fff"></path>
+                </svg>
             </div>
-            <div class="col-6 mt-5">
-                <div class="image-container" id="about">
-                    <img class="img" src="./img/logo.png" alt="" />
+        </div>
+
+        <div class="row mb-3" id="about">
+            <div class="col-lg-6 ps-5 mt-5 mb-5 reveal col-sm-12">
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Somos una startup enfocado en el sector de TI, que es consciente que
+                    el mercado en cuanto a Tecnologías de la información es cada vez
+                    mayor y que la cantidad de personal capacitado no es suficiente para
+                    cubrir las vacantes que hay hoy en día. Sin embargo nuestra compañía busca disminuir esta necesidad
+                    a través de educación virtual a la medida.
+                </p>
+            </div>
+            <div class="col-lg-6 mt-2 col-sm-12">
+                <div class="image-container">
+                    <img class="img reveal" src="./img/logo.png" alt="" />
                 </div>
             </div>
         </div>
-        
-        <div class="row etica wellcome" id="base">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Modelo canvas original</h3>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-2.54,113.98 C149.99,150.00 352.99,46.88 504.79,128.80 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+        <div class="row etica wellcome-components" id="comunity">
+            <div class="col-lg-7 col-sm-12 text-light ps-lg-5 mt-md-5">
+                <h3>Forma parte de esta gran comunidad 📝!</h3>
+                <p>
+                    Si cuentas con una carrera profesional o eres un apasionado por el aprendizaje, te gusta la
+                    tecnología y buscas aumentar tus ingresos e incluso conseguir tu primer empleo, estas en el lugar
+                    correcto nosotros te enseñamos y ayudamos.
+                </p>
             </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica mb-3"
+            <div class="col-lg-5 col-sm-12 text-center pe-lg-5 mt-md-5">
+                <img class="img-comunity mb-3 reveal" src="img/comunity.svg" alt="" />
+            </div>
+        </div>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-1.97,24.19 C150.96,86.36 271.49,-49.98 501.97,33.06 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+
+        <div class="row mt-3" id="platform">
+            <div class="col-lg-5 col-sm-12 ps-lg-5 text-center reveal">
+                <img class="img-comunity" src="img/platform.svg" alt="" />
+            </div>
+            <div class="col-lg-7 col-sm-12 reveal">
+                <h3>Conoce nuestra plataforma 🚀</h3>
+                <p>
+                    Contamos con una plataforma en la cual nuestros estudiantes pueden acceder a una gran cantidad de
+                    cursos, asesoría personalizadas con uno de nuestros profesores, por otra parte los ayudamos
+                    contactarse con nuestras empresas aliadas, lideres en el sector de TI.
+                </p>
+            </div>
+        </div>
+
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-2.54,113.98 C149.99,150.00 352.99,46.88 504.79,128.80 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+        <div class="row wellcome-components text-light" id="foryou">
+            <div class="col-lg-7 col-sm-12 text-light ps-lg-5 mt-md-5">
+                <h3>Estamos para ti ✅</h3>
+                <p>Queremos brindarte la mejor experiencia haciendo uso de nuestros servicios, es por eso que estamos tu disposición para resolver cada una de tus dudas y hacer que alcances tus objetivos profesionales. Contacta con nosotros a través de cualquiera de nuestras redes sociales y no pierdas de vista nuestras publicaciones ya que obtendrás grandes recompensas.</p>
+            </div>
+            <div class="col-lg-5 col-sm-12 text-center pe-lg-5 mt-md-5 mb-lg-4 reveal">
+                <img class="img-comunity" src="img/social.svg" alt="" />
+            </div>
+        </div>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-1.97,24.19 C150.96,86.36 271.49,-49.98 501.97,33.06 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+
+        <div class="row mt-3" id="leader">
+            <div class="col-lg-5 col-sm-12 ps-lg-5 text-center">
+                <img class="img-comunity reveal" src="img/leader.svg" alt="" />
+            </div>
+            <div class="col-lg-7 col-sm-12 pe-lg-5 pe-sm-3">
+                <h3>Formando lideres 🤩</h3>
+                <p>
+                    A lo largo de nuestro desarrollo, hemos creado una comunidad muy grande y diversa en la cual todos
+                    participan y dan fe de los conocimientos que les proporcionamos. Confiamos en que en nuestra región
+                    hay una gran densidad de talento con grandes mentes, que tienen la posibilidad de ofrecer todo lo
+                    que la industria necesita. Es por esto que cada uno de los miembros que se unen a nuestra comunidad
+                    tienen la posibilidad no solo de crecer profesionalmente sino de contribuir al crecimiento de
+                    nuestra región.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5" id="long-tail">
+            <div class="col-lg-7 col-sm-12 ps-lg-5 ps-sm-3">
+                <h5>Como formamos líderes?</h5>
+                <p>
+                    La mejor forma de formar lideres es teniendo grandes lideres dentro de nuestra organización, lideres que estén comprometidos con los objetivos de la compañía y que cuenten con unas excelentes habilidades blandas, ya que grandes lideres forman mejores lideres. Dentro de Latintech, todos tenemos poder en la toma de decisiones, estamos abiertos a discutir nuevas ideas y somos conscientes de que de los errores se aprende y que lo más importante es seguir a delante tomando conciencia de ellos. Trabajamos bajo metodologías ágiles y a partir de métricas claras basadas en las necesidades de nuestros estudiantes.
+                </p>
+            </div>
+            <div class="col-lg-5 col-sm-12 ps-lg-5 text-center">
+                <img class="img-comunity reveal" src="img/meet.svg" alt="" />
+            </div>
+        </div>
+
+
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-2.54,113.98 C149.99,150.00 352.99,46.88 504.79,128.80 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+
+        <div class="row wellcome-components pb-5" id="prices">
+            <div class="col-12 mt-md-5 mb-3 d-flex justify-content-center text-center reveal text-light">
+                <h3>Conoce nuestros precios ✨</h3>
+            </div>
+            <div class="col-lg-4 col-sm-12 reveal" align="right">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>$0/m</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Free</h6>
+                        <ul class="text-start">
+                            <li>✅ Acceso a la introcucción de cada curso.</li>
+                            <hr>
+                            <li>❌ Acceso a comentar con la comunidad.</li>
+                            <hr>
+                            <li>❌ Acceso a clases 24/7 personalizadas.</li>
+                            <hr>
+                            <li>❌ Acceso a opcionón de carrera con empresas lideres.</li>
+                        </ul>
+                        <a class="fbutton" href="">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 reveal" align="center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>$19.900/m</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Basic</h6>
+                        <ul class="text-start">
+                            <li>✅ Acceso a la introcucción de cada curso.</li>
+                            <hr>
+                            <li>✅ Acceso a comentar con la comunidad.</li>
+                            <hr>
+                            <li>🟨 Acceso a clases 24/7 personalizadas (Una al mes).</li>
+                            <hr>
+                            <li>❌ Acceso a opcionón de carrera con empresas lideres.</li>
+                        </ul>
+                        <a class="fbutton" href="">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 reveal">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>$39.900/m</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Expert</h6>
+                        <ul class="text-start">
+                            <li>✅ Acceso a la introcucción de cada curso.</li>
+                            <hr>
+                            <li>✅ Acceso a comentar con la comunidad.</li>
+                            <hr>
+                            <li>✅ Acceso a clases 24/7 personalizadas.</li>
+                            <hr>
+                            <li>✅ Acceso a opcionón de carrera con empresas lideres.</li>
+                        </ul>
+                        <a class="fbutton" href="">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-1.97,24.19 C150.96,86.36 271.49,-49.98 501.97,33.06 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+
+        <div class="row mt-3 mb-5" id="canvas">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center reveal">
+                <h3>Modelo canvas</h3>
+            </div>
+            <div class="col-12 d-flex justify-content-center text-center reveal">
+                <img class="img-etica"
                     src="https://cdn.discordapp.com/attachments/701559542848159747/961106273192013884/unknown.png"
                     alt="" />
             </div>
         </div>
 
-        <div class="row mt-3" id="infography">
-            <div class="col-12 mt-md-5 mb-3 d-flex justify-content-center text-center">
-                <h3>Infografía (Patrón que menos se integra)</h3>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-2.54,113.98 C149.99,150.00 352.99,46.88 504.79,128.80 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
+        </div>
+        <div class="row wellcome-components" id="infography">
+            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center text-light">
+                <h3>Infografía</h3>
             </div>
             <div class="col-12 d-flex justify-content-center text-center">
-                <img class="infography"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/960750885456203796/infografia_modelo_gratis.png"
-                    alt="" />
+                <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;">
+                    <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline"
+                        muted="muted"
+                        style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%">
+                        <source src="https://static.genial.ly/resources/panel-loader-low.mp4" type="video/mp4" />Your
+                        browser does not support the video tag.
+                    </video>
+                    <div id="633118b37934320016a25877" class="genially-embed"
+                        style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div>
+                </div>
+                <script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genial.ly/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
             </div>
         </div>
-
-        <div class="row mt-3 wellcome" id="desgragation">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Patrón de desegregación</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica mb-3"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/961106769734668298/unknown.png"
-                    alt="" />
-            </div>
+        <div style="height: 100px; overflow: hidden">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M-1.97,24.19 C150.96,86.36 271.49,-49.98 501.97,33.06 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #ff8b62"></path>
+            </svg>
         </div>
 
-        <div class="row mt-3" id="long-tail">
+        <div class="row mt-3 mb-5" id="contact">
             <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Patrón Long Tail</h3>
+                <h3>Contáctanos</h3>
             </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/961106892942368768/unknown.png"
-                    alt="" />
-            </div>
-        </div>
-
-        <div class="row mt-3 mb-5 wellcome" id="multiple-platform">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Patrón de plataformas múltiples</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica mb-3"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/961107098651996200/unknown.png"
-                    alt="" />
-            </div>
-        </div>
-
-        <div class="row mt-3 mb-5" id="free">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Modelo de negocio gratis</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/960363247792443472/unknown.png"
-                    alt="" />
-            </div>
-        </div>
-
-        <div class="row mt-3 mb-5 wellcome" id="open">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Modelo de negocio abierto</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img class="img-etica mb-3"
-                    src="https://cdn.discordapp.com/attachments/701559542848159747/961107856336228352/unknown.png"
-                    alt="" />
-            </div>
-        </div>
-
-        <div class="row mt-3 mb-5" id="questions">
-            <div class="col-12 mt-md-5 mb-0 d-flex justify-content-center text-center">
-                <h3>Preguntas significativas</h3>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-start">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">¿Le gustaría tener más opciones para acceder a nuestro contenido?</li>
-                    <li class="list-group-item">¿La satisfacción y concentración del estudiante es necesaria para el desarrollo del aprendizaje?</li>
-                    <li class="list-group-item">¿Estaría dispuesto a ver publicidad en la plataforma mientras tenga acceso a contenido de excelente calidad?</li>
-                </ul>
+            <div class="icons col-12 mb-0 d-flex justify-content-center text-center">
+                <a href="https://www.linkedin.com/" target="_blank" class="redes"><i
+                        class="fab fa-linkedin linkedin"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="redes"><i
+                        class="fab fa-instagram-square instagram"></i></a>
+                <a href="https://github.com/alejandropg339" target="_blank" class="redes"><i
+                        class="fab fa-github-square github"></i></a>
+                <a href="mailto:latintechsupport@latintech.com" target="_blank" class="redes"><i
+                        class="fas fa-envelope-square mail"></i></a>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
 </body>
 
 <footer>
-    <p class="p-3 copy  wellcome">
+    <p class="p-3 copy wellcome-components text-light mb-0">
         Copyright ©2022 || Alejandro Padilla - Jefferson Daza
     </p>
 </footer>
